@@ -1,0 +1,132 @@
+
+  .loginpopup{
+    display: flex;
+    height: 50%;
+    width: 450px;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px #555;
+    margin-left: 35%;
+    margin-top: 3%;
+    background-color: white;
+  }
+
+  .loginTemplate{
+    flex : 2;
+    text-align: center;
+    /* max-height: 540px; */
+    font-family: 'Mulish';
+    color: #5E5E5E;
+  }
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0px 15px 0px 15px;
+    max-height: 400px;
+}
+
+.Btn{
+    /* margin: 30px; */
+    width: 100%;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+}
+
+button[value="signin"],button[value="create"]{
+    border-radius: 7px;
+    width: 100%;
+    padding: 3%;
+    background-color: #8B3DFF;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[name="username"],input[name="password"]{
+    height: 25px;
+    background-color: rgb(246, 244, 244);
+    border: 0px;
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+}
+
+button[value="create"]{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.google{
+    margin-bottom: 20px;
+}
+
+.closeIcon{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+input[value="Google"]{
+    width: 60px;
+    padding: 6%;
+    background-color: #4688F1;
+    color: white;
+    border: 0px;
+    margin-bottom: 15px;
+}
+.title {
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    margin-top: 0px;
+}
+.errorMsg{
+    font-size: small;
+    color: red;
+    /* margin-bottom: 10px; */
+}
+
+.actionBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.content{
+    margin: 30px;
+}
+h5{
+    margin-top: 0px;
+}
+
+.invalid{
+    border-bottom: 1px solid red !important;
+}
+input:focus{
+    outline: 0;
+}
+.signup{
+    color: #8B3DFF;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.hr-line{
+    width: 100%;
+    color: black;
+}

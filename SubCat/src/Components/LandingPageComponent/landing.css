@@ -1,0 +1,68 @@
+.landing-page{
+    position: relative; 
+    margin-top: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+
+.divider-line{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
+.page-title{
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.product-card{
+    margin: 0px !important;
+    display: flex;
+    align-items: left;
+    justify-content:left;
+    width: 100% !important;
+}
+
+.card-tile{
+    margin: 5px;
+    max-height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title{
+    position: relative;
+    text-decoration: none !important;
+}
+
+.alignleft {
+    font-size: 16px !important;
+	float: left;
+    position: relative;
+}
+.alignleft b {
+    font-size: 16px !important;
+    position: relative;
+}
+
+.alignright {
+    font-size: 16px !important;
+	float: right;
+    position: relative;
+}
+
+.textcontainer{
+    width:60%;
+    /* top:6%; */
+    left:18%;
+    margin-top: -270px;
+}
